@@ -3348,6 +3348,13 @@ input, select, textarea {
 
 	@media screen and (max-width: 736px) {
 
+			/* body cire */
+
+			body { 
+				min-height: 100vh;
+			 }
+	
+
 		/* Basic */
 
 			body, input, select, textarea {
@@ -3430,6 +3437,11 @@ input, select, textarea {
 /* XSmall */
 
 	@media screen and (max-width: 480px) {
+		/* body cire */
+
+		body { 
+			min-height: 100vh;
+		 }
 
 		/* Button */
 
@@ -3486,7 +3498,8 @@ input, select, textarea {
 		/* Basic */
 
 			html, body {
-				min-width: 320px;
+				/*min-width: 320px;*/
+				 min-height: 100vh; 
 			}
 
 		/* Main */
