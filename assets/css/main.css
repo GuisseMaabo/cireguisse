@@ -3300,6 +3300,11 @@ input, select, textarea {
 
 	@media screen and (max-width: 980px) {
 
+		img{
+			max-width: 100%;
+			height: auto;
+		}
+
 		/* List */
 
 			ul.major-icons li {
@@ -3348,11 +3353,18 @@ input, select, textarea {
 
 	@media screen and (max-width: 736px) {
 
+
+
 			/* body cire */
 
 			body { 
 				min-height: 100vh;
 			 }
+
+			 img{
+				max-width: 100%;
+				height: auto;
+			}
 	
 
 		/* Basic */
@@ -3443,6 +3455,11 @@ input, select, textarea {
 			min-height: 100vh;
 		 }
 
+		 img{
+			max-width: 100%;
+			height: auto;
+		}
+
 		/* Button */
 
 			input[type="submit"],
@@ -3500,6 +3517,11 @@ input, select, textarea {
 			html, body {
 				/*min-width: 320px;*/
 				 min-height: 100vh; 
+			}
+
+			img{
+				max-width: 100%;
+				height: auto;
 			}
 
 		/* Main */
